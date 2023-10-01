@@ -1,4 +1,5 @@
 import boto3
+//CLOUDFRONT
 cloudfront_client = boto3.client("cloudfront", region_name="ap-south-1")
 
 cloudfront_client.create_distribution(
